@@ -1,0 +1,101 @@
+body {
+  background: rgb(223, 220, 220);
+  font-size: 20px;
+  text-align: center;
+}
+p {
+  font-weight: 300;
+  text-align: center;
+}
+
+
+.pcitata{
+    font-style: oblique;
+    font-size: 20px;
+
+}
+
+h1 {
+  color: white;
+  background: rgb(122, 109, 109);
+  text-align: center;
+  margin-top: 1%;
+  margin-left: 3%;
+  margin-right: 3%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0px;
+}
+
+nav li{
+  display: inline-block;
+  margin-top: 0;
+}
+
+nav li a{
+  background: rgb(87, 77, 77);
+  color: white;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-size: 15px;
+}
+nav li a:hover{
+  background: #fff;
+  color: #333;
+}
+
+blockquote {
+  align-items: centers;
+  position: relative;
+  display:grid;
+  background: #eee;
+  padding: 40px 30px 30px 60px;
+  border-radius: 10px;
+  font-family: 'Bitter', serif;
+  color: #333;
+  text-align: center;
+  max-width: 60%;
+  min-width: 200px;
+  
+
+  
+  box-shadow: 1px 1px 1px #999,
+              2px 2px 1px #999,
+              3px 3px 1px #999;
+ 
+}
+
+a{
+  color:black; 
+  border-bottom-color: rgba(15, 122, 252, 0.2); 
+  text-decoration:none; 
+  display: block;
+  float: right;
+}
+a:hover{
+  color: white; 
+  border-bottom-color: rgba(208, 64, 0, 0.2); 
+  text-decoration:none}
+
+  .literatura{
+  position: relative;
+  display: grid;
+  line-height:300%;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(223, 220, 220);
+  color: black;
+  text-align: center;
+  font-size: 15px;
+}
